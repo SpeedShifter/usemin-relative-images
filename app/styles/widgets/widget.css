@@ -1,0 +1,9 @@
+/* line 1, widget.scss */
+.styles-widget {
+  background-image: url(../../images/yeoman.png);
+}
+
+/* line 4, widget.scss */
+.styles-widget-sub {
+  background-image: url(../../images/subfolder/yeoman.png);
+}

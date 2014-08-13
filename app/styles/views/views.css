@@ -1,0 +1,9 @@
+/* line 1, views.scss */
+.views {
+  background-image: url(../../images/yeoman.png);
+}
+
+/* line 4, views.scss */
+.views-sub {
+  background-image: url(../../images/subfolder/yeoman.png);
+}

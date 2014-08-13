@@ -1,0 +1,9 @@
+/* line 1, common.scss */
+.additionals-common {
+  background-image: url(../../../images/yeoman.png);
+}
+
+/* line 4, common.scss */
+.additionals-common-sub {
+  background-image: url(../../../images/subfolder/yeoman.png);
+}

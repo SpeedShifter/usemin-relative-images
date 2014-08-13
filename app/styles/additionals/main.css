@@ -1,0 +1,9 @@
+/* line 1, main.scss */
+.additionals-styles {
+  background-image: url(../../images/yeoman.png);
+}
+
+/* line 4, main.scss */
+.additionals-styles-sub {
+  background-image: url(../../images/subfolder/yeoman.png);
+}
