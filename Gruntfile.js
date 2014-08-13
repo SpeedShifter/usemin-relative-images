@@ -265,7 +265,11 @@ module.exports = function (grunt) {
     // By default, your `index.html`'s <!-- Usemin block --> will take care of
     // minification. These next options are pre-configured if you do not wish
     // to use the Usemin blocks.
-    // cssmin: {
+    cssmin: {
+      options: {
+        target: '.tmp/styles/any.css',
+        relativeTo: '.tmp/styles/'
+      }
     //   dist: {
     //     files: {
     //       '<%= yeoman.dist %>/styles/main.css': [
@@ -273,7 +277,7 @@ module.exports = function (grunt) {
     //       ]
     //     }
     //   }
-    // },
+    },
     // uglify: {
     //   dist: {
     //     files: {
